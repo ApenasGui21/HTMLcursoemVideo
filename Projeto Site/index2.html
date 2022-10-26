@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pagina principal NC NEWS</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"> Nigth City News </a>
+        <ul>
+            <li><a href="#" class="active"> HOME </a></li>
+            <li><a href="#sec"> SOBRE </a></li>
+            <li><a href="#"> MAPA </a></li>
+            <li><a href="#"> PONTOS TURÍSTICOS </a></li>
+        </ul>
+    </header>
+
+    <section>
+        <img src="imgs/galaxy_effects.png" id="stars">
+        <img src="imgs/logo.webp" id="NCT">
+        <img src="imgs/city.png" id="city" z-index>
+        <img src="imgs/city_front.png" id="city_front">
+        <!--<h2 id="Text">Bem vindo a nigth city!</h2>-->
+    </section>
+
+    <div class="sec" id="sec">
+        <h2>BEM VINDO A NIGTH CITY !</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore quisquam sed quas 
+            illo itaque quidem, a, voluptate nam veniam harum odio eos autem tenetur nisi sequi quam 
+            beatae quod.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae harum 
+            blanditiis voluptas voluptates soluta adipisci excepturi commodi ipsam, quos, ad, facilis 
+            explicabo veritatis quas quaerat pariatur? Culpa, ducimus cum.Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Dolorum vitae harum blanditiis voluptas voluptates soluta 
+            adipisci excepturi commodi ipsam, quos, ad, facilis explicabo veritatis quas quaerat 
+            pariatur? Culpa, ducimus cum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Dolorum vitae harum blanditiis voluptas voluptates soluta adipisci excepturi commodi ipsam,
+             quos, ad, facilis explicabo veritatis quas quaerat pariatur? Culpa, ducimus cum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore quisquam sed quas 
+             illo itaque quidem, a, voluptate nam veniam harum odio eos autem tenetur nisi sequi quam 
+             beatae quod.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae harum 
+             blanditiis voluptas voluptates soluta adipisci excepturi commodi ipsam, quos, ad, facilis 
+             explicabo veritatis quas quaerat pariatur? Culpa, ducimus cum.Lorem ipsum dolor sit amet 
+             consectetur adipisicing elit. Dolorum vitae harum blanditiis voluptas voluptates soluta 
+             adipisci excepturi commodi ipsam, quos, ad, facilis explicabo veritatis quas quaerat 
+             pariatur? Culpa, ducimus cum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Dolorum vitae harum blanditiis voluptas voluptates soluta adipisci excepturi commodi ipsam,
+              quos, ad, facilis explicabo veritatis quas quaerat pariatur? Culpa, ducimus cum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolore quisquam sed quas 
+              illo itaque quidem, a, voluptate nam veniam harum odio eos autem tenetur nisi sequi quam 
+              beatae quod.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vitae harum 
+              blanditiis voluptas voluptates soluta adipisci excepturi commodi ipsam, quos, ad, facilis 
+              explicabo veritatis quas quaerat pariatur? Culpa, ducimus cum.Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Dolorum vitae harum blanditiis voluptas voluptates soluta 
+              adipisci excepturi commodi ipsam, quos, ad, facilis explicabo veritatis quas quaerat 
+              pariatur? Culpa, ducimus cum.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Dolorum vitae harum blanditiis voluptas voluptates soluta adipisci excepturi commodi ipsam,
+               quos, ad, facilis explicabo veritatis quas quaerat pariatur? Culpa, ducimus cum.</p>
+    </div>
+
+    <script>
+        let stars = document.getElementById('stars');
+        let NCT = document.getElementById('NCT');
+        let city = document.getElementById('city');
+        let city_front = document.getElementById('city_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY; 
+            stars.style.left = value * 0.25 + 'px';
+            NCT.style.top = value * 1.05 + 'px';
+            city.style.top = value * 0.5 + 'px';
+            city_front.style.top = value * 0 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+
+</body>
+</html>
