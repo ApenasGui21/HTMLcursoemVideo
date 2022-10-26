@@ -66,7 +66,10 @@ main {
 }
 
 body {
-    background-image: url(imgs/);
+    background-color: black;
+    background-image: url(imgs/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
