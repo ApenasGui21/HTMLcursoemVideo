@@ -65,7 +65,9 @@ main {
     margin-bottom: 50px;
 }
 
-
+body {
+    background-image: url(imgs/);
+}
 
 
 
