@@ -142,3 +142,25 @@ footer {
     font-size: 1.2em;
 }
 
+#img01 {
+    background-image: url(imgs/fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.612);
+    background-attachment: fixed;
+}
+
+#img02 {
+    background-image: url(imgs/fundo2.png);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img03 {
+    background-image: url(imgs/fundo3.png);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+
