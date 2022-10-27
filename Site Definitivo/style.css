@@ -12,6 +12,7 @@ header {
     text-align: center;
     min-height: 150px;
     padding-top: 20px;
+    font-variant: small-caps;
     
 }
 
@@ -107,3 +108,26 @@ footer {
     text-align: center;
     color: rgb(198, 198, 198);
 }
+
+
+.part1 {
+    background-color: darkgray;
+    padding: 5vh 30px 5vh 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.part1I {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 5vh 30px 5vh 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.part1I > p {
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 800px;
+    margin: auto;
+}
+
